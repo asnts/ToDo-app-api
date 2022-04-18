@@ -1,2 +1,4 @@
 # todo-app-api
-teste 
+Um aplicativo para você organizar suas tarefas e o seu dia-a-dia de maneira simples e rápida
+
+
