@@ -3,16 +3,23 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "modules": "^0.4.0"
+    "modules": "^0.4.0",
+    "path": "^0.12.7",
+    "sqlite3": "^5.0.4",
+    "url": "^0.11.0"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest": "^28.0.1"
+  }
 }
